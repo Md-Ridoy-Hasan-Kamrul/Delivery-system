@@ -6,8 +6,10 @@ const ContactView = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-teal-600 to-blue-600 py-20 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">Contact Us</h1>
-          <p className="text-xl">We're here to help with all your delivery needs</p>
+          <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">Contact Us</h1>
+          <p className="text-xl text-white opacity-90">
+            We're here to help with all your delivery needs
+          </p>
         </div>
       </div>
 
@@ -24,17 +26,11 @@ const ContactView = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <a
-                      href="tel:07971415430"
-                      className="text-teal-600 hover:text-teal-700"
-                    >
+                    <a href="tel:07971415430" className="text-teal-600 hover:text-teal-700">
                       07971 415430
                     </a>
                     <br />
-                    <a
-                      href="tel:01978439739"
-                      className="text-teal-600 hover:text-teal-700"
-                    >
+                    <a href="tel:01978439739" className="text-teal-600 hover:text-teal-700">
                       01978 439739
                     </a>
                   </div>
@@ -106,7 +102,7 @@ const ContactView = () => {
                   <label className="mb-1 block text-sm font-medium text-gray-700">Name</label>
                   <input
                     type="text"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:ring-1 focus:ring-teal-500 focus:outline-none"
                     placeholder="Your name"
                   />
                 </div>
@@ -115,7 +111,7 @@ const ContactView = () => {
                   <label className="mb-1 block text-sm font-medium text-gray-700">Email</label>
                   <input
                     type="email"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:ring-1 focus:ring-teal-500 focus:outline-none"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -124,7 +120,7 @@ const ContactView = () => {
                   <label className="mb-1 block text-sm font-medium text-gray-700">Phone</label>
                   <input
                     type="tel"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:ring-1 focus:ring-teal-500 focus:outline-none"
                     placeholder="Your phone number"
                   />
                 </div>
@@ -133,7 +129,7 @@ const ContactView = () => {
                   <label className="mb-1 block text-sm font-medium text-gray-700">Message</label>
                   <textarea
                     rows="4"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-teal-500 focus:ring-1 focus:ring-teal-500 focus:outline-none"
                     placeholder="How can we help you?"
                   ></textarea>
                 </div>

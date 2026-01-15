@@ -12,8 +12,7 @@ const FooterLayout = () => {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="mb-4 flex items-center space-x-2">
-              <Truck className="h-8 w-8 text-teal-400" />
-              <span className="text-2xl font-bold">M19 Logistics</span>
+              <img src="/m19-logo.svg" alt="M19 Logistics" className="h-16 w-auto" />
             </div>
             <p className="mb-4 max-w-md text-gray-400">
               Your trusted partner in seamless delivery solutions across the UK. Providing reliable,
@@ -33,7 +32,7 @@ const FooterLayout = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-4 font-semibold">Quick Links</h3>
+            <h3 className="mb-4 font-semibold text-white">Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-400 transition-colors hover:text-white">
@@ -65,7 +64,7 @@ const FooterLayout = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="mb-4 font-semibold">Contact Us</h3>
+            <h3 className="mb-4 font-semibold text-white">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <Phone className="mt-1 h-4 w-4 flex-shrink-0 text-teal-400" />

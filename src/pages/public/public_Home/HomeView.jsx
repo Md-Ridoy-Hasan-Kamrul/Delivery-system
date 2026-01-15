@@ -119,14 +119,14 @@ const HomeView = () => {
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
                 to="/login"
-                className="group inline-flex w-full items-center justify-center rounded-xl bg-white px-8 py-4 text-base font-semibold text-teal-600 shadow-xl transition-all hover:scale-105 hover:bg-gray-50 hover:shadow-2xl sm:w-auto"
+                className="group inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-white px-8 py-4 text-base font-bold text-teal-600 shadow-xl transition-all hover:scale-105 hover:bg-gray-50 hover:shadow-2xl sm:w-auto"
               >
                 Request a Delivery
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex w-full items-center justify-center rounded-xl border-2 border-white/30 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition-all hover:bg-white/20 sm:w-auto"
+                className="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border-2 border-white bg-white/10 px-8 py-4 text-base font-bold text-white backdrop-blur-sm transition-all hover:scale-105 hover:border-white hover:bg-white/20 sm:w-auto"
               >
                 Contact Us
               </Link>
@@ -269,8 +269,8 @@ const HomeView = () => {
             <div className="mt-12 lg:mt-0">
               <div className="rounded-2xl bg-gradient-to-br from-teal-600 to-blue-600 p-8 text-white shadow-2xl sm:p-12">
                 <Truck className="mb-6 h-16 w-16" />
-                <h3 className="mb-4 text-2xl font-bold">Ready to Get Started?</h3>
-                <p className="mb-6 text-blue-100">
+                <h3 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h3>
+                <p className="mb-6 text-white opacity-90">
                   Join dozens of businesses across North Wales who trust M19 Logistics for their
                   delivery needs.
                 </p>

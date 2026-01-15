@@ -6,8 +6,8 @@ const EnquiriesView = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-teal-600 to-blue-600 py-20 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">General Enquiries</h1>
-          <p className="text-xl">Have questions? We're here to help</p>
+          <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">General Enquiries</h1>
+          <p className="text-xl text-white opacity-90">Have questions? We're here to help</p>
         </div>
       </div>
 

@@ -6,8 +6,10 @@ const AboutView = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-teal-600 to-blue-600 py-20 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">About M19 Logistics</h1>
-          <p className="text-xl">Your Trusted Partner in Seamless Delivery Solutions</p>
+          <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">About M19 Logistics</h1>
+          <p className="text-xl text-white opacity-90">
+            Your Trusted Partner in Seamless Delivery Solutions
+          </p>
         </div>
       </div>
 
@@ -19,34 +21,34 @@ const AboutView = () => {
               <Building className="mx-auto mb-4 h-16 w-16 text-teal-600" />
               <h2 className="mb-4 text-3xl font-bold text-gray-900">Our Story</h2>
             </div>
-            
+
             <div className="space-y-6 text-lg leading-relaxed text-gray-700">
               <p>
                 Welcome to <strong>M19 Logistics</strong>, your trusted partner in seamless delivery
                 solutions. Founded in 2019, M19 Logistics was born from a vision to redefine courier
-                services with speed, reliability, and customer satisfaction at the core of everything
-                we do.
+                services with speed, reliability, and customer satisfaction at the core of
+                everything we do.
               </p>
-              
+
               <p>
-                At M19 Logistics, we understand that every package tells a story, and we're committed
-                to delivering those stories with care and precision. From local businesses to
-                individual customers, we provide tailored logistics solutions to meet your unique
+                At M19 Logistics, we understand that every package tells a story, and we're
+                committed to delivering those stories with care and precision. From local businesses
+                to individual customers, we provide tailored logistics solutions to meet your unique
                 needs.
               </p>
-              
+
               <p>
                 Our team of dedicated professionals leverages cutting-edge technology and a
                 customer-first approach to ensure your parcels arrive on time, every time. Since our
                 inception, we've grown by staying true to our values: integrity, efficiency, and
                 innovation.
               </p>
-              
+
               <p>
                 Whether it's same-day delivery, nationwide shipping, or specialized logistics, M19
                 Logistics is here to make every delivery effortless.
               </p>
-              
+
               <p className="font-semibold text-teal-600">
                 Thank you for choosing M19 Logistics—where your deliveries matter as much to us as
                 they do to you.
@@ -70,7 +72,7 @@ const AboutView = () => {
                 We operate with honesty and transparency in all our dealings
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
                 <Award className="h-8 w-8 text-blue-600" />
@@ -80,7 +82,7 @@ const AboutView = () => {
                 Every delivery is optimized for speed without compromising quality
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-purple-100">
                 <Users className="h-8 w-8 text-purple-600" />
