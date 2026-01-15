@@ -144,7 +144,7 @@ const NavbarLayout = () => {
                 <Link
                   to="/login"
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center space-x-2 rounded-md bg-teal-600 px-3 py-2 text-base font-medium text-white"
+                  className="flex items-center space-x-2 rounded-md bg-teal-500 px-3 py-2 text-base font-medium text-white"
                 >
                   <LogIn className="h-5 w-5" />
                   <span>Login</span>
