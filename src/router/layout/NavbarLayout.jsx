@@ -28,10 +28,7 @@ const NavbarLayout = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-teal-600 to-blue-600">
-              <Truck className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">M19 Logistics</span>
+            <img src="/m19-logo.svg" alt="M19 Logistics" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
